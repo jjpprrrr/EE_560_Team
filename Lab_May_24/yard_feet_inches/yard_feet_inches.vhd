@@ -166,10 +166,10 @@ begin
 				Feet <= Feet - '1';
 			when C_YARD_STATE =>
 				-- CU state transitions
-				if (Feet < "00000010") then
-					state <= U_YARD_STATE;
-				else
+				if (Feet = "00000011") then
 					state <= DONE_STATE;
+				elsif (Feet < "00000011") then
+					state <= U_YARD_STATE;
 				end if;
 				-- DPU RTL
 				Feet <= Feet - "00000011";
