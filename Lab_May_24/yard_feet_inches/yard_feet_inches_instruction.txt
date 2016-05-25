@@ -1,0 +1,17 @@
+Prelab:
+1. Before coming to lab, complete Q#6.1 on page 13 of 22 of the following practice homework
+http://www-classes.usc.edu/engr/ee-s/560/EE560_HW_on_state_machine_n_data_path.pdf
+In-lab:
+1. Create a folder called yard_feet_inches under C:\ModelSim_projects\ 
+2. Go through divider_mealy.vhd, and divider_mealy_tb.vhd in the attached .zip file. Copy these files with new names.
+divider_mealy.vhd  => C:\ModelSim_projects\yard_feet_inches\yard_feet_inches.vhd
+divider_mealy_tb.vhd  => C:\ModelSim_projects\yard_feet_inches\yard_feet_inches_tb.vhd 
+3. Use 8-bit signals for inches, feet, yards. Edit and complete these files to suit, simulate in modelsim and demonstrate to your TA.
+4. FTP your vhdl files to your UNIX account and submit them online to the ee560 class account using the following unix command:
+submit -user ee560 -tag yard_feet_inches  yard_feet_inches.vhd  yard_feet_inches_output_results.txt names.txt
+In the attached .zip file, there is the detailed testbench for this task. 
+Files:  yard_feet_inches_long_tb_r1.vhd  yard_feet_inches_input_operands.txt
+This testbench is provided for your reading as it demonstrates various methods for testing your hardware:
+Testing through for loop in the test bench.
+Testing through FileIO (Inputs & Outputs to/from files)
+Outputs to "Transcript" Screen

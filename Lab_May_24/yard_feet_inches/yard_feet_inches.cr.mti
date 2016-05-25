@@ -1,0 +1,21 @@
+C:/Questasim_projects/yard_feet_inches/yard_feet_inches_long_tb_r1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/yard_feet_inches/yard_feet_inches_long_tb_r1.vhd
+QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_textio
+-- Compiling entity yard_feet_inches_tb
+-- Compiling architecture yard_feet_inches_RTL_tb of yard_feet_inches_tb
+
+} {} {}} C:/Questasim_projects/yard_feet_inches/yard_feet_inches.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/yard_feet_inches/yard_feet_inches.vhd
+QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity yard_feet_inches
+-- Compiling architecture yard_feet_inches_RTL of yard_feet_inches
+
+} {} {}}
