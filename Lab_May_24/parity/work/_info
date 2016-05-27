@@ -1,0 +1,199 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d//Vlabfs.vlab.usc.edu/home$$/nhourani/Documents/EE560/Lab 1/special_counter
+T_opt
+!s110 1464316032
+VmQQ3iF^QB:8RJ;nQ1hQ>=1
+04 10 10 work parity_gen parity_beh 1
+=1-005056be2704-5747b07e-17b-a5e0
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z1 OL;O;10.4;61
+R0
+T_opt1
+!s110 1464316138
+V19IoD@n=mkgkK@[5AA9HI3
+04 28 14 work parity_vhdl_tb_selfcheck_beh testbench_arch 1
+=1-005056be2704-5747b0e9-3e2-a494
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt1
+R1
+R0
+vparity
+!s110 1464315575
+!i10b 1
+!s100 >1`IEME3N6FzM<=ZKV]M<1
+IF?<Rkj;dl6DOSj85R6TWK2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d//Vlabfs.vlab.usc.edu/home$$/nhourani/Documents/EE560/Lab 1/parity
+w1464315072
+8//Vlabfs.vlab.usc.edu/home$$/nhourani/Documents/EE560/Lab 1/parity/parity.v
+F//Vlabfs.vlab.usc.edu/home$$/nhourani/Documents/EE560/Lab 1/parity/parity.v
+Z4 L0 21
+Z5 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1464315574.872000
+!s107 //Vlabfs.vlab.usc.edu/home$/nhourani/Documents/EE560/Lab 1/parity/parity.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Vlabfs.vlab.usc.edu/home$/nhourani/Documents/EE560/Lab 1/parity/parity.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Eparity_gen
+w0
+Z7 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z8 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R3
+Z11 8//Vlabfs.vlab.usc.edu/home$$/nhourani/Documents/EE560/Lab 1/parity/parity_vhdl.vhd
+Z12 F//Vlabfs.vlab.usc.edu/home$$/nhourani/Documents/EE560/Lab 1/parity/parity_vhdl.vhd
+l0
+L28
+VJVO<hRFZMOW[XTOQ<V2FP3
+!s100 5cGOd5f5>KGV7oVAMTnT[3
+Z13 OL;C;10.4;61
+32
+Z14 !s110 1464316064
+!i10b 1
+Z15 !s108 1464316064.244000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|\\Vlabfs.vlab.usc.edu\home$\nhourani\Documents\EE560\Lab 1\parity\parity_vhdl.vhd|
+Z17 !s107 \\Vlabfs.vlab.usc.edu\home$\nhourani\Documents\EE560\Lab 1\parity\parity_vhdl.vhd|
+!i113 0
+Z18 o-work work -2002 -explicit
+Z19 tExplicit 1
+Aparity_beh
+R7
+R8
+R9
+R10
+DEx4 work 10 parity_gen 0 22 JVO<hRFZMOW[XTOQ<V2FP3
+l38
+L36
+V;JBS[z]RC>PPa1iJ]CPYE1
+!s100 7n:[g^U7Nh@hJ8j3Cz<aW2
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+vparity_tb
+!s110 1464315574
+!i10b 1
+!s100 mjnUMzS0F>2PYc_9XGS]Y1
+Izz^W8HYTVeKNzeEf3C9TA0
+R2
+R3
+w1464315058
+8//Vlabfs.vlab.usc.edu/home$$/nhourani/Documents/EE560/Lab 1/parity/ee560_sync_counter_mix_of_variables_and_signals_structured_tb.v
+F//Vlabfs.vlab.usc.edu/home$$/nhourani/Documents/EE560/Lab 1/parity/ee560_sync_counter_mix_of_variables_and_signals_structured_tb.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1464315574.264000
+!s107 //Vlabfs.vlab.usc.edu/home$/nhourani/Documents/EE560/Lab 1/parity/ee560_sync_counter_mix_of_variables_and_signals_structured_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Vlabfs.vlab.usc.edu/home$/nhourani/Documents/EE560/Lab 1/parity/ee560_sync_counter_mix_of_variables_and_signals_structured_tb.v|
+!i113 0
+R6
+Eparity_vhdl
+w0
+R7
+R8
+R9
+R10
+R3
+R11
+R12
+l0
+L28
+V4Mb2^PS:gjeMTX;=oAI870
+!s100 KS5VolL:eG@?089?VIIh41
+R13
+32
+Z20 !s110 1464317455
+!i10b 1
+Z21 !s108 1464317454.837000
+R16
+R17
+!i113 0
+R18
+R19
+Aparity_beh
+R7
+R8
+R9
+R10
+DEx4 work 11 parity_vhdl 0 22 4Mb2^PS:gjeMTX;=oAI870
+32
+R20
+l37
+L35
+V3o0d?k]fPBhf2[eVkVQCN1
+!s100 _=1`:lk3]0SeKb4Je>ce72
+R13
+!i10b 1
+R21
+R16
+R17
+!i113 0
+R18
+R19
+Eparity_vhdl_tb_selfcheck_beh
+w0
+R7
+Z22 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R8
+R9
+R10
+R3
+Z23 8//Vlabfs.vlab.usc.edu/home$$/nhourani/Documents/EE560/Lab 1/parity/parity_vhdl_tb.vhd
+Z24 F//Vlabfs.vlab.usc.edu/home$$/nhourani/Documents/EE560/Lab 1/parity/parity_vhdl_tb.vhd
+l0
+L27
+Vc8Vol=_]O8P2^`<Z_YeRN1
+!s100 8]m6:T43MA@eWfaO6ESO:1
+R13
+32
+Z25 !s110 1464317454
+!i10b 1
+Z26 !s108 1464317454.529000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//Vlabfs.vlab.usc.edu/home$/nhourani/Documents/EE560/Lab 1/parity/parity_vhdl_tb.vhd|
+Z28 !s107 //Vlabfs.vlab.usc.edu/home$/nhourani/Documents/EE560/Lab 1/parity/parity_vhdl_tb.vhd|
+!i113 0
+R18
+R19
+Atestbench_arch
+R7
+R22
+R8
+R9
+R10
+DEx4 work 28 parity_vhdl_tb_selfcheck_beh 0 22 c8Vol=_]O8P2^`<Z_YeRN1
+32
+R25
+l44
+L30
+VMRj4`1><^lf[U>45l]]7o2
+!s100 AJLf4zZXbFnmcTXNK@Had1
+R13
+!i10b 1
+R26
+R27
+R28
+!i113 0
+R18
+R19
