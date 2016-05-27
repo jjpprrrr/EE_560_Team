@@ -133,24 +133,24 @@ counter_p: process (clk)
 	variable diff   : std_logic_vector(4 downto 0);
 	begin
 		if (clk'event and clk = '1') then
-			if (clear = '1') then
+			if (clr = '1') then
 				Q_internal_s <= (others => '0');
 			elsif (load = '1') then
 				Q_internal_s <= BA;
 			elsif (jump = '1') then
 				diff := "10100" - Q_internal_s;
 				if diff(0) = '0' then --number is even
-					Q_next := Q_internal_s + SHR(diff, 1); --find midpoint and add
+			      Q_next := Q_internal_s + ('0' & diff(4 downto 1)); --find midpoint and add
 				else  --number is odd
-					if (diff < "01010") then --less than 10
-						Q_next := Q_internal_s + SHR(diff, 1);
-					else --greater than 10
-						Q_next := Q_internal_s + SHR(diff, 1) + 1;
-					end if;
+				  if (diff < "01010") then --less than 10
+					Q_next := Q_internal_s + ('0' & diff(4 downto 1));
+				  else --greater than 10
+				    Q_next := Q_internal_s + ('0' & diff(4 downto 1)) + 1;
+				  end if;
 				end if;
 				--check for bonus
-				if "10100" - Q_next <= "00100" then
-          Q_next := Q_next + "00100";
+				if (Q_next + "00100" <= "10100") then
+                  Q_next := Q_next + "00100";
 				end if;
 				Q_internal_s <= Q_next;
 			elsif (en = '1') then

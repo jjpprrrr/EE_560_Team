@@ -1,0 +1,136 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_10.4/examples
+vee201L_sync_counter_with_jump
+Z0 !s110 1464314592
+!i10b 1
+!s100 oh[7`IfnhHgSCX;b`2_zH3
+IM<MEhOKLWRSV:QnNh?QXO0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d//Vlabfs.vlab.usc.edu/home$$/nhourani/Documents/EE560/Lab 1/special_counter
+w1339524044
+8//Vlabfs.vlab.usc.edu/home$$/nhourani/Documents/EE560/Lab 1/special_counter/ee201L_sync_counter_mix_of_blocking_and_non_blocking.v
+F//Vlabfs.vlab.usc.edu/home$$/nhourani/Documents/EE560/Lab 1/special_counter/ee201L_sync_counter_mix_of_blocking_and_non_blocking.v
+L0 98
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1464314592.790000
+!s107 //Vlabfs.vlab.usc.edu/home$/nhourani/Documents/EE560/Lab 1/special_counter/ee201L_sync_counter_mix_of_blocking_and_non_blocking.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Vlabfs.vlab.usc.edu/home$/nhourani/Documents/EE560/Lab 1/special_counter/ee201L_sync_counter_mix_of_blocking_and_non_blocking.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+nee201@l_sync_counter_with_jump
+vee201L_sync_counter_with_jump_tb
+R0
+!i10b 1
+!s100 :S_O6>n9`hg[z96eVHAPV2
+IbjAAfULZPZF0m7]No7A?l1
+R1
+R2
+w1369175079
+8//Vlabfs.vlab.usc.edu/home$$/nhourani/Documents/EE560/Lab 1/special_counter/ee201L_sync_counter_mix_of_blocking_and_non_blocking_structured_tb.v
+F//Vlabfs.vlab.usc.edu/home$$/nhourani/Documents/EE560/Lab 1/special_counter/ee201L_sync_counter_mix_of_blocking_and_non_blocking_structured_tb.v
+L0 8
+R3
+r1
+!s85 0
+31
+!s108 1464314591.905000
+!s107 //Vlabfs.vlab.usc.edu/home$/nhourani/Documents/EE560/Lab 1/special_counter/ee201L_sync_counter_mix_of_blocking_and_non_blocking_structured_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Vlabfs.vlab.usc.edu/home$/nhourani/Documents/EE560/Lab 1/special_counter/ee201L_sync_counter_mix_of_blocking_and_non_blocking_structured_tb.v|
+!i113 0
+R4
+nee201@l_sync_counter_with_jump_tb
+Eee560_sync_counter_mix_of_variables_and_signals_structured_tb
+Z5 w1339995378
+Z6 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z7 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z8 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R2
+Z11 8ee560_sync_counter_mix_of_variables_and_signals_structured_tb.vhd
+Z12 Fee560_sync_counter_mix_of_variables_and_signals_structured_tb.vhd
+l0
+L13
+V@I0mKe`k2?TPhg?SZEQ0]0
+!s100 ZJFbjfei[0^V_4][RHCgE2
+Z13 OL;C;10.4;61
+32
+Z14 !s110 1464314605
+!i10b 1
+Z15 !s108 1464314605.044000
+Z16 !s90 -reportprogress|300|ee560_sync_counter_mix_of_variables_and_signals_structured_tb.vhd|
+Z17 !s107 ee560_sync_counter_mix_of_variables_and_signals_structured_tb.vhd|
+!i113 0
+Z18 tExplicit 1
+Atestbench
+R6
+R7
+R8
+R9
+R10
+DEx4 work 61 ee560_sync_counter_mix_of_variables_and_signals_structured_tb 0 22 @I0mKe`k2?TPhg?SZEQ0]0
+32
+R14
+l33
+L16
+Vk1[MLKQ9;a9F8GjChzN7O1
+!s100 0VzaRh12f788Ml_EaOm]>1
+R13
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+Eee560_sync_counter_with_jump
+Z19 w1464314449
+R7
+R8
+R9
+R10
+R2
+Z20 8ee560_sync_counter_mix_of_variables_and_signals.vhd
+Z21 Fee560_sync_counter_mix_of_variables_and_signals.vhd
+l0
+L90
+VHETcj<CokP9j<6;`ZUW3k2
+!s100 o6^MO<gRPH:7FjPSaYSId3
+R13
+32
+Z22 !s110 1464314604
+!i10b 1
+Z23 !s108 1464314604.403000
+Z24 !s90 -reportprogress|300|ee560_sync_counter_mix_of_variables_and_signals.vhd|
+Z25 !s107 ee560_sync_counter_mix_of_variables_and_signals.vhd|
+!i113 0
+R18
+Artl
+R7
+R8
+R9
+R10
+DEx4 work 28 ee560_sync_counter_with_jump 0 22 HETcj<CokP9j<6;`ZUW3k2
+32
+R22
+l108
+L97
+VH]hY<3FzB_iW4d68lS6Ij0
+!s100 Y>W]X?Ej49XMQchDRkMf?2
+R13
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R18
