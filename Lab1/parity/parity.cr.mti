@@ -1,0 +1,40 @@
+{//Vlabfs.vlab.usc.edu/home$/nhourani/Documents/EE560/Lab 1/parity/parity_vhdl.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {\\Vlabfs.vlab.usc.edu\home$\nhourani\Documents\EE560\Lab 1\parity\parity_vhdl.vhd}
+QuestaSim-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_textio
+-- Compiling entity parity_vhdl
+-- Compiling architecture parity_beh of parity_vhdl
+
+} {} {}} {//Vlabfs.vlab.usc.edu/home$/nhourani/Documents/EE560/Lab 1/parity/parity_vhdl_tb.vhd} {2 {vcom -work work -2002 -explicit -vopt -stats=none {//Vlabfs.vlab.usc.edu/home$/nhourani/Documents/EE560/Lab 1/parity/parity_vhdl_tb.vhd}
+QuestaSim-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Compiling entity parity_vhdl_tb_selfcheck_beh
+-- Compiling architecture testbench_arch of parity_vhdl_tb_selfcheck_beh
+** Warning: //Vlabfs.vlab.usc.edu/home$/nhourani/Documents/EE560/Lab 1/parity/parity_vhdl_tb.vhd(41): (vcom-1236) Shared variables must be of a protected type.
+
+** Warning: //Vlabfs.vlab.usc.edu/home$/nhourani/Documents/EE560/Lab 1/parity/parity_vhdl_tb.vhd(42): (vcom-1236) Shared variables must be of a protected type.
+
+
+} {} {}} {//Vlabfs.vlab.usc.edu/home$/nhourani/Documents/EE560/Lab 1/parity/ee560_sync_counter_mix_of_variables_and_signals_structured_tb.v} {1 {vlog -work work -vopt -stats=none {//Vlabfs.vlab.usc.edu/home$/nhourani/Documents/EE560/Lab 1/parity/ee560_sync_counter_mix_of_variables_and_signals_structured_tb.v}
+QuestaSim-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module parity_tb
+
+Top level modules:
+	parity_tb
+
+} {} {}} {//Vlabfs.vlab.usc.edu/home$/nhourani/Documents/EE560/Lab 1/parity/parity.v} {1 {vlog -work work -vopt -stats=none {//Vlabfs.vlab.usc.edu/home$/nhourani/Documents/EE560/Lab 1/parity/parity.v}
+QuestaSim-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module parity
+
+Top level modules:
+	parity
+
+} {} {}}

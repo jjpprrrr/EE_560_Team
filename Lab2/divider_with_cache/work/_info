@@ -1,0 +1,262 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Questasim_projects/special_counter_in_Verilog(Complete)
+T_opt
+Z0 !s110 1464927770
+VAQAAXmNez4Gl1hNzVCT0U1
+04 21 25 work divider_with_cache_tb divider_with_cache_rtl_tb 1
+=1-346895ee3ef5-5751061a-2d0-1f70
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.4c;61
+Ecache
+Z1 w1276385302
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dC:/Questasim_projects/divider_with_cache
+Z7 8cache_generic.vhd
+Z8 Fcache_generic.vhd
+l0
+L25
+Vb6nLVUZzlL2kRK6ciXA5K1
+!s100 AiCezOoK:4BcQGOEW^hf?2
+Z9 OL;C;10.4c;61
+32
+R0
+!i10b 1
+Z10 !s108 1464927770.000000
+Z11 !s90 -reportprogress|300|cache_generic.vhd|
+Z12 !s107 cache_generic.vhd|
+!i113 0
+Z13 tExplicit 1
+Abehave
+R2
+R3
+R4
+R5
+DEx4 work 5 cache 0 22 b6nLVUZzlL2kRK6ciXA5K1
+l112
+L45
+Ve81YoVjfV^7_hU@=XbY1C0
+!s100 AYm?`5n[WPOWeA]^D8KAF1
+R9
+32
+R0
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Ecam
+Z14 w1464921687
+R2
+R3
+R4
+R5
+R6
+Z15 8cam_generic.vhd
+Z16 Fcam_generic.vhd
+l0
+L23
+V;EAYKjKO>K0BH__>UL4@S0
+!s100 12?[SmPXF=ae:VeT3dP6^0
+R9
+32
+R0
+!i10b 1
+R10
+Z17 !s90 -reportprogress|300|cam_generic.vhd|
+Z18 !s107 cam_generic.vhd|
+!i113 0
+R13
+Abehave
+R2
+R3
+R4
+R5
+DEx4 work 3 cam 0 22 ;EAYKjKO>K0BH__>UL4@S0
+l59
+L49
+V_oHJHd8`aozR5UHGd3BEB0
+!s100 5cJzQJ9Fb<Ro4NbbX3^M:3
+R9
+32
+R0
+!i10b 1
+R10
+R17
+R18
+!i113 0
+R13
+Edivider_with_cache
+Z19 w1276457746
+R2
+R3
+R4
+R5
+R6
+Z20 8divider_with_cache.vhd
+Z21 Fdivider_with_cache.vhd
+l0
+L44
+VD73O9KIOF7FzY5:ID3Plm3
+!s100 QPZXf_aQ5@[bPk;cm=XVM2
+R9
+32
+R0
+!i10b 1
+R10
+Z22 !s90 -reportprogress|300|divider_with_cache.vhd|
+Z23 !s107 divider_with_cache.vhd|
+!i113 0
+R13
+Adivider_with_cache_rtl
+R2
+R3
+R4
+R5
+DEx4 work 18 divider_with_cache 0 22 D73O9KIOF7FzY5:ID3Plm3
+l97
+L58
+VP8M3SGCi=BY]7z<B8mX5h3
+!s100 FR9hQQn6:Qb7QV1VPz=dh2
+R9
+32
+R0
+!i10b 1
+R10
+R22
+R23
+!i113 0
+R13
+Edivider_with_cache_tb
+Z24 w1276464874
+R3
+R4
+R5
+R6
+Z25 8divider_with_cache_tb.vhd
+Z26 Fdivider_with_cache_tb.vhd
+l0
+L19
+V84`R74Oh_=>Y7dd:5Qa332
+!s100 Rn:n6f=n:@<8L[=X8T8_;2
+R9
+32
+R0
+!i10b 1
+R10
+Z27 !s90 -reportprogress|300|divider_with_cache_tb.vhd|
+Z28 !s107 divider_with_cache_tb.vhd|
+!i113 0
+R13
+Adivider_with_cache_rtl_tb
+R3
+R4
+R5
+DEx4 work 21 divider_with_cache_tb 0 22 84`R74Oh_=>Y7dd:5Qa332
+l59
+L24
+V[5HZXm485JSHO]U]=VQZn2
+!s100 :?_8Nn^4Bd5]V4UM2RX@83
+R9
+32
+R0
+!i10b 1
+R10
+R27
+R28
+!i113 0
+R13
+Elru
+Z29 w1464927746
+R2
+R3
+R4
+R5
+R6
+Z30 8lru_generic.vhd
+Z31 Flru_generic.vhd
+l0
+L23
+V1leiDhfUWkRKgJcZ;jbW=0
+!s100 `baT5VhP6EPfYZ@3_VmjA1
+R9
+32
+R0
+!i10b 1
+R10
+Z32 !s90 -reportprogress|300|lru_generic.vhd|
+Z33 !s107 lru_generic.vhd|
+!i113 0
+R13
+Abehave
+R2
+R3
+R4
+R5
+DEx4 work 3 lru 0 22 1leiDhfUWkRKgJcZ;jbW=0
+l47
+L38
+VPRF=IT0j4jd9I>?mKTHVM1
+!s100 _eXAE=edo8m96goAl?fAa0
+R9
+32
+R0
+!i10b 1
+R10
+R32
+R33
+!i113 0
+R13
+Espram
+Z34 w1276385026
+R3
+R2
+R4
+R5
+R6
+Z35 8spram.vhd
+Z36 Fspram.vhd
+l0
+L26
+V]kL?JigQHzBJO`@Te9z2R0
+!s100 0_PGj0Vb7OgPTf7B=@5hG0
+R9
+32
+R0
+!i10b 1
+R10
+Z37 !s90 -reportprogress|300|spram.vhd|
+Z38 !s107 spram.vhd|
+!i113 0
+R13
+Ainferrable
+R3
+R2
+R4
+R5
+DEx4 work 5 spram 0 22 ]kL?JigQHzBJO`@Te9z2R0
+l48
+L40
+V4Vh;[6K7m:hob1aYa49oJ3
+!s100 =22hR9DIPKFhZZbnTAILh3
+R9
+32
+R0
+!i10b 1
+R10
+R37
+R38
+!i113 0
+R13

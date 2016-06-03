@@ -1,0 +1,7 @@
+This is the exercise folder. 
+Two files are incomplete: cam_generic.vhd and lru_generic.vhd
+Also students need to comment and uncomment a line regarding the 
+dot point display (steady/flashing) in the divider_with_cache_top.vhd.
+
+Cheers
+The EE560 Teaching Team

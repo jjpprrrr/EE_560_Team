@@ -1,0 +1,66 @@
+Test #1
+Cache Miss occured.
+xin = 88, yin = 8, quotient = 11, remainder = 0
+Number of Clocks taken = 11
+ 
+Test #2
+Cache Miss occured.
+xin = 40, yin = 4, quotient = 10, remainder = 0
+Number of Clocks taken = 10
+ 
+Test #3
+Cache Miss occured.
+xin = 255, yin = 64, quotient = 3, remainder = 63
+Number of Clocks taken = 4
+ 
+Test #4
+Cache Miss occured.
+xin = 254, yin = 64, quotient = 3, remainder = 62
+Number of Clocks taken = 4
+ 
+Test #5
+Cache Miss occured.
+xin = 253, yin = 64, quotient = 3, remainder = 61
+Number of Clocks taken = 4
+ 
+Test #6
+Cache Miss occured.
+xin = 252, yin = 64, quotient = 3, remainder = 60
+Number of Clocks taken = 4
+ 
+Test #7
+Cache Hit occured.
+xin = 40, yin = 4, quotient = 10, remainder = 0
+Number of Clocks taken = 1
+ 
+Test #8
+Cache Miss occured.
+xin = 251, yin = 64, quotient = 3, remainder = 59
+Number of Clocks taken = 4
+ 
+Test #9
+Cache Miss occured.
+xin = 250, yin = 64, quotient = 3, remainder = 58
+Number of Clocks taken = 4
+ 
+Test #10
+Cache Miss occured.
+xin = 128, yin = 32, quotient = 4, remainder = 0
+Number of Clocks taken = 4
+ 
+Test #11
+Cache Miss occured.
+xin = 88, yin = 8, quotient = 11, remainder = 0
+Number of Clocks taken = 11
+ 
+Test #12
+Cache Miss occured.
+xin = 255, yin = 64, quotient = 3, remainder = 63
+Number of Clocks taken = 4
+ 
+Test #13
+Cache Hit occured.
+xin = 88, yin = 8, quotient = 11, remainder = 0
+Number of Clocks taken = 1
+ 
+All tests concluded.
