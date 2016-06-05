@@ -1,0 +1,110 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Jun 04 18:48:41 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "dp" LOCATE = SITE "M4" LEVEL 1;
+COMP "LD10" LOCATE = SITE "V1" LEVEL 1;
+COMP "LD11" LOCATE = SITE "R1" LEVEL 1;
+COMP "LD12" LOCATE = SITE "P5" LEVEL 1;
+COMP "LD13" LOCATE = SITE "U1" LEVEL 1;
+COMP "LD14" LOCATE = SITE "R2" LEVEL 1;
+COMP "LD15" LOCATE = SITE "P2" LEVEL 1;
+COMP "sw10" LOCATE = SITE "U2" LEVEL 1;
+COMP "sw11" LOCATE = SITE "T3" LEVEL 1;
+COMP "sw12" LOCATE = SITE "T1" LEVEL 1;
+COMP "sw13" LOCATE = SITE "R3" LEVEL 1;
+COMP "sw14" LOCATE = SITE "P3" LEVEL 1;
+COMP "sw15" LOCATE = SITE "P4" LEVEL 1;
+COMP "sw0" LOCATE = SITE "U9" LEVEL 1;
+COMP "sw1" LOCATE = SITE "U8" LEVEL 1;
+COMP "sw2" LOCATE = SITE "R7" LEVEL 1;
+COMP "sw3" LOCATE = SITE "R6" LEVEL 1;
+COMP "sw4" LOCATE = SITE "R5" LEVEL 1;
+COMP "sw5" LOCATE = SITE "V7" LEVEL 1;
+COMP "sw6" LOCATE = SITE "V6" LEVEL 1;
+COMP "sw7" LOCATE = SITE "V5" LEVEL 1;
+COMP "sw8" LOCATE = SITE "U4" LEVEL 1;
+COMP "sw9" LOCATE = SITE "V2" LEVEL 1;
+COMP "AN0" LOCATE = SITE "N6" LEVEL 1;
+COMP "AN1" LOCATE = SITE "M6" LEVEL 1;
+COMP "AN2" LOCATE = SITE "M3" LEVEL 1;
+COMP "AN3" LOCATE = SITE "N5" LEVEL 1;
+COMP "BtnC" LOCATE = SITE "E16" LEVEL 1;
+COMP "BtnL" LOCATE = SITE "T16" LEVEL 1;
+COMP "ClkPort" LOCATE = SITE "E3" LEVEL 1;
+COMP "BtnR" LOCATE = SITE "R10" LEVEL 1;
+COMP "LD0" LOCATE = SITE "T8" LEVEL 1;
+COMP "LD1" LOCATE = SITE "V9" LEVEL 1;
+COMP "LD2" LOCATE = SITE "R8" LEVEL 1;
+COMP "LD3" LOCATE = SITE "T6" LEVEL 1;
+COMP "LD4" LOCATE = SITE "T5" LEVEL 1;
+COMP "LD5" LOCATE = SITE "T4" LEVEL 1;
+COMP "LD6" LOCATE = SITE "U7" LEVEL 1;
+COMP "LD7" LOCATE = SITE "U6" LEVEL 1;
+COMP "LD8" LOCATE = SITE "V4" LEVEL 1;
+COMP "ca" LOCATE = SITE "L3" LEVEL 1;
+COMP "LD9" LOCATE = SITE "U3" LEVEL 1;
+COMP "cb" LOCATE = SITE "N1" LEVEL 1;
+COMP "cc" LOCATE = SITE "L5" LEVEL 1;
+COMP "cd" LOCATE = SITE "L4" LEVEL 1;
+COMP "ce" LOCATE = SITE "K3" LEVEL 1;
+COMP "cf" LOCATE = SITE "M2" LEVEL 1;
+COMP "cg" LOCATE = SITE "L6" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "BUF_GP_1/BUFG" BEL "divider_1/state_FSM_FFd1" BEL
+        "divider_1/state_FSM_FFd2" BEL "divider_1/q_int_7" BEL
+        "divider_1/q_int_6" BEL "divider_1/q_int_5" BEL "divider_1/q_int_4"
+        BEL "divider_1/q_int_3" BEL "divider_1/q_int_2" BEL
+        "divider_1/q_int_1" BEL "divider_1/q_int_0" BEL "divider_1/x_7" BEL
+        "divider_1/x_6" BEL "divider_1/x_5" BEL "divider_1/x_4" BEL
+        "divider_1/x_3" BEL "divider_1/x_2" BEL "divider_1/x_1" BEL
+        "divider_1/x_0" BEL "divider_1/CU_DPU.q_int_temp_7" BEL
+        "divider_1/CU_DPU.q_int_temp_6" BEL "divider_1/CU_DPU.q_int_temp_5"
+        BEL "divider_1/CU_DPU.q_int_temp_4" BEL
+        "divider_1/CU_DPU.q_int_temp_3" BEL "divider_1/CU_DPU.q_int_temp_2"
+        BEL "divider_1/CU_DPU.q_int_temp_1" BEL
+        "divider_1/CU_DPU.q_int_temp_0" BEL "divider_1/second_cycle" BEL
+        "divider_1/CU_DPU.x_temp_7" BEL "divider_1/CU_DPU.x_temp_6" BEL
+        "divider_1/CU_DPU.x_temp_5" BEL "divider_1/CU_DPU.x_temp_4" BEL
+        "divider_1/CU_DPU.x_temp_3" BEL "divider_1/CU_DPU.x_temp_2" BEL
+        "divider_1/CU_DPU.x_temp_1" BEL "divider_1/CU_DPU.x_temp_0" BEL
+        "divider_1/y_7" BEL "divider_1/y_6" BEL "divider_1/y_5" BEL
+        "divider_1/y_4" BEL "divider_1/y_3" BEL "divider_1/y_2" BEL
+        "divider_1/y_1" BEL "divider_1/y_0" BEL "divider_1/y_3_1" BEL
+        "divider_1/y_4_1" BEL "divider_1/y_5_1" BEL "divider_1/y_6_1" BEL
+        "divider_1/y_2_1" BEL "divider_1/y_3_2" BEL "divider_1/y_4_2" BEL
+        "divider_1/y_5_2" BEL "divider_1/y_6_2";
+TIMEGRP XYQ_GROUP = BEL "divider_1/q_int_0" BEL "divider_1/x_0" BEL
+        "divider_1/y_0";
+TIMEGRP LED_GROUP = BEL "LD7" BEL "LD6" BEL "LD5" BEL "LD4" BEL "LD3" BEL
+        "LD2" BEL "LD1" BEL "LD0";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 10 ns HIGH 50%;
+TIMEGRP "FFS" = FFS(*);
+PATH TS_LD_path = FROM TIMEGRP "FFS" TO TIMEGRP "LED_GROUP";
+PATH "TS_LD_path" TIG;
+TS_divider_multicycle_path = MAXDELAY FROM TIMEGRP "XYQ_GROUP" TO TIMEGRP
+        "XYQ_GROUP" TS_sys_clk_pin * 2;
+PIN sw0_IBUF_pins<1> = BEL "sw0_IBUF" PINNAME PAD;
+PIN sw1_IBUF_pins<1> = BEL "sw1_IBUF" PINNAME PAD;
+PIN sw2_IBUF_pins<1> = BEL "sw2_IBUF" PINNAME PAD;
+PIN sw3_IBUF_pins<1> = BEL "sw3_IBUF" PINNAME PAD;
+PIN sw4_IBUF_pins<1> = BEL "sw4_IBUF" PINNAME PAD;
+PIN sw5_IBUF_pins<1> = BEL "sw5_IBUF" PINNAME PAD;
+PIN sw6_IBUF_pins<1> = BEL "sw6_IBUF" PINNAME PAD;
+PIN sw7_IBUF_pins<1> = BEL "sw7_IBUF" PINNAME PAD;
+PIN BtnL_IBUF_pins<1> = BEL "BtnL_IBUF" PINNAME PAD;
+PIN BtnR_IBUF_pins<1> = BEL "BtnR_IBUF" PINNAME PAD;
+PIN BtnC_IBUF_pins<1> = BEL "BtnC_IBUF" PINNAME PAD;
+PIN "sw0_IBUF_pins<1>" TIG;
+PIN "sw1_IBUF_pins<1>" TIG;
+PIN "sw2_IBUF_pins<1>" TIG;
+PIN "sw3_IBUF_pins<1>" TIG;
+PIN "sw4_IBUF_pins<1>" TIG;
+PIN "sw5_IBUF_pins<1>" TIG;
+PIN "sw6_IBUF_pins<1>" TIG;
+PIN "sw7_IBUF_pins<1>" TIG;
+PIN "BtnL_IBUF_pins<1>" TIG;
+PIN "BtnR_IBUF_pins<1>" TIG;
+PIN "BtnC_IBUF_pins<1>" TIG;
+SCHEMATIC END;
+

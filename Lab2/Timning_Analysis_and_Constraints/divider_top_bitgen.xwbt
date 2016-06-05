@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Xilinx_projects\Timning_Analysis_and_Constraints\divider_top.ncd
+OUTFILE=C:\Xilinx_projects\Timning_Analysis_and_Constraints\divider_top.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=C:\Xilinx_projects\Timning_Analysis_and_Constraints
+LICENSE=ISE
+USER_INFO=174127445_174127446_210604357_969
