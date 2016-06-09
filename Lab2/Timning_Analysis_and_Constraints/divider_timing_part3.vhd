@@ -137,7 +137,7 @@ begin
 
 	      when COMPUTE_STATE =>
 		      -- DPU RTL
-				for i in 0 to 5 loop
+				for i in 0 to 1 loop
 					if (x_temp >= y) then
 					  -- state <= COMPUTE_STATE; 
 					  -- The above statement is not necessary
