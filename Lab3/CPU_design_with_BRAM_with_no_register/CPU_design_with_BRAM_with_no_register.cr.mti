@@ -1,0 +1,121 @@
+C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/cpu_5stage_NOREG.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/cpu_5stage_NOREG.vhd
+QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package std_logic_textio
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package reverseAssemblyFunctionPkg
+-- Compiling entity cpu_1
+-- Compiling architecture behave of cpu_1
+
+} {} {}} C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/i_fetch_test_stream_1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/i_fetch_test_stream_1.vhd
+QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package instr_stream_pkg
+
+} {} {}} C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/i_fetch_test_stream_6_sw_lw.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/i_fetch_test_stream_6_sw_lw.vhd
+QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package instr_stream_pkg
+
+} {} {}} C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/reg_file.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/reg_file.vhd
+QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity register_file
+-- Compiling architecture regfile of register_file
+
+} {} {}} C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/i_fetch_test_stream_2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/i_fetch_test_stream_2.vhd
+QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package instr_stream_pkg
+
+} {} {}} C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/i_fetch_test_stream_3_forwarding.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/i_fetch_test_stream_3_forwarding.vhd
+QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package instr_stream_pkg
+
+} {} {}} C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/ALU.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/ALU.vhd
+QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity ALU
+-- Compiling architecture comput of ALU
+
+} {} {}} C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/Imem_NOREG.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/Imem_NOREG.vhd
+QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package instr_stream_pkg
+-- Compiling entity instruction_mem
+-- Compiling architecture inferrable of instruction_mem
+
+} {} {}} C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/cpu_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/cpu_tb.vhd
+QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity cpu_tb
+-- Compiling architecture cpu_behv_tb of cpu_tb
+
+} {} {}} C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/i_fetch_test_stream_4_forwarding_branch.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/i_fetch_test_stream_4_forwarding_branch.vhd
+QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package instr_stream_pkg
+
+} {} {}} C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/reverseAssemblyFunctionPkg_r2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/reverseAssemblyFunctionPkg_r2.vhd
+QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling package reverseAssemblyFunctionPkg
+-- Compiling package body reverseAssemblyFunctionPkg
+-- Loading package reverseAssemblyFunctionPkg
+
+} {} {}} C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/dmem_NOREG_r1.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/dmem_NOREG_r1.vhd
+QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity data_mem_dp
+-- Compiling architecture inferrable of data_mem_dp
+** Warning: C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/dmem_NOREG_r1.vhd(48): (vcom-1236) Shared variables must be of a protected type.
+
+
+} {} {}} C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/i_fetch_test_stream_5_stall.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/CPU_design_with_BRAM_with_no_register/i_fetch_test_stream_5_stall.vhd
+QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package instr_stream_pkg
+
+} {} {}}

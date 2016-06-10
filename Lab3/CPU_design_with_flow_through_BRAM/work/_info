@@ -1,0 +1,329 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Questasim_projects/CPU_design_with_BRAM_with_no_register
+Ealu
+Z0 w1245382048
+Z1 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dC:/Questasim_projects/CPU_design_with_flow_through_BRAM
+Z6 8ALU.vhd
+Z7 FALU.vhd
+l0
+L9
+VooJ2oHO^<o>oN5HTNblfk2
+!s100 J7Pd7SJF9@Qf[mdQR6GfJ3
+Z8 OL;C;10.4c;61
+32
+Z9 !s110 1465534247
+!i10b 1
+Z10 !s108 1465534247.000000
+Z11 !s90 -reportprogress|300|ALU.vhd|
+Z12 !s107 ALU.vhd|
+!i113 0
+Z13 tExplicit 1
+Acomput
+R1
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 ooJ2oHO^<o>oN5HTNblfk2
+32
+R9
+l20
+L18
+VP6G>fdDo_R7Y63NWb]m>F1
+!s100 N[Yg7X]zE3a4z[Hamh0W=0
+R8
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Ecpu_1
+Z14 w1465534186
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z16 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z17 DPx4 work 26 reverseassemblyfunctionpkg 0 22 C9OjF`D=MG2LlSoDMDSEU1
+R1
+R2
+R3
+R4
+R5
+Z18 8cpu_5stage_IREG.vhd
+Z19 Fcpu_5stage_IREG.vhd
+l0
+L9
+V]H3Oa9HH4[D2JO8C995Ka0
+!s100 YLdBdE<DP]nY<og92L6:92
+R8
+32
+Z20 !s110 1465534248
+!i10b 1
+Z21 !s108 1465534248.000000
+Z22 !s90 -reportprogress|300|cpu_5stage_IREG.vhd|
+Z23 !s107 cpu_5stage_IREG.vhd|
+!i113 0
+R13
+Abehave
+R15
+R16
+R17
+R1
+R2
+R3
+R4
+DEx4 work 5 cpu_1 0 22 ]H3Oa9HH4[D2JO8C995Ka0
+32
+R20
+l124
+L18
+V@3Pg=3^m47R>STIOeI5211
+!s100 B@e4J?>gHWg^PdIhN=^If3
+R8
+!i10b 1
+R21
+R22
+R23
+!i113 0
+R13
+Ecpu_tb
+Z24 w1370927844
+R1
+R2
+R3
+R4
+R5
+Z25 8cpu_tb.vhd
+Z26 Fcpu_tb.vhd
+l0
+L10
+VCJbIZA2KaQSR[_M`7acV>3
+!s100 FGIeOhR<H@:TP78lB3^:O3
+R8
+32
+R20
+!i10b 1
+R21
+Z27 !s90 -reportprogress|300|cpu_tb.vhd|
+Z28 !s107 cpu_tb.vhd|
+!i113 0
+R13
+Acpu_behv_tb
+R1
+R2
+R3
+R4
+DEx4 work 6 cpu_tb 0 22 CJbIZA2KaQSR[_M`7acV>3
+32
+R20
+l37
+L15
+VJYGTU9[QVHF3KVG]]eU]=1
+!s100 BLPl:fN9D]Am=JZo=@GF`1
+R8
+!i10b 1
+R21
+R27
+R28
+!i113 0
+R13
+Edata_mem_dp
+Z29 w1402731730
+R2
+R15
+R3
+R4
+R5
+Z30 8data_mem_dp_IREG.vhd
+Z31 Fdata_mem_dp_IREG.vhd
+l0
+L36
+V6UJjJ8QR7XR6I;LMHnmRm0
+!s100 ;MB098PQ<0;^`HchCP]:z0
+R8
+32
+R9
+!i10b 1
+R10
+Z32 !s90 -reportprogress|300|data_mem_dp_IREG.vhd|
+Z33 !s107 data_mem_dp_IREG.vhd|
+!i113 0
+R13
+Ainferrable
+R2
+R15
+R3
+R4
+DEx4 work 11 data_mem_dp 0 22 6UJjJ8QR7XR6I;LMHnmRm0
+32
+R9
+l61
+L51
+VA>eQ<4bE:S:8ZfKj?PLaO0
+!s100 f66@9DYzO]L9aDGR?0=U[2
+R8
+!i10b 1
+R10
+R32
+R33
+!i113 0
+R13
+Pinstr_stream_pkg
+R3
+R4
+32
+R9
+w1369963666
+R5
+8i_fetch_test_stream_6_sw_lw.vhd
+Fi_fetch_test_stream_6_sw_lw.vhd
+l0
+L17
+V3=bRkjHzdO4H9EW9a7IhU0
+!s100 T>ITg6cD;5A0VX^UHjm9S1
+R8
+!i10b 1
+R10
+!s90 -reportprogress|300|i_fetch_test_stream_6_sw_lw.vhd|
+!s107 i_fetch_test_stream_6_sw_lw.vhd|
+!i113 0
+R13
+Einstruction_mem
+Z34 w1370815536
+Z35 DPx4 work 16 instr_stream_pkg 0 22 3=bRkjHzdO4H9EW9a7IhU0
+R2
+R15
+R3
+R4
+R5
+Z36 8instruction_mem_IREG.vhd
+Z37 Finstruction_mem_IREG.vhd
+l0
+L30
+V7P4dG@64^zHjKZ`e`7[@:0
+!s100 mU1gYQ@8o=1Mi;e=]e5`R1
+R8
+32
+R9
+!i10b 1
+R10
+Z38 !s90 -reportprogress|300|instruction_mem_IREG.vhd|
+Z39 !s107 instruction_mem_IREG.vhd|
+!i113 0
+R13
+Ainferrable
+R35
+R2
+R15
+R3
+R4
+DEx4 work 15 instruction_mem 0 22 7P4dG@64^zHjKZ`e`7[@:0
+32
+R9
+l45
+L42
+VVQY;2bXl;m8?Qe7hb;G<^3
+!s100 DJ6?g3XZSOcN`3M1BD<WS1
+R8
+!i10b 1
+R10
+R38
+R39
+!i113 0
+R13
+Eregister_file
+Z40 w1338764032
+R1
+R2
+R3
+R4
+R5
+Z41 8reg_file.vhd
+Z42 Freg_file.vhd
+l0
+L6
+VB]bSG8ROPX;GokEiGJ6Q@1
+!s100 [1[ebJLce8LY?Ogmo>Kg=2
+R8
+32
+R9
+!i10b 1
+R10
+Z43 !s90 -reportprogress|300|reg_file.vhd|
+Z44 !s107 reg_file.vhd|
+!i113 0
+R13
+Aregfile
+R1
+R2
+R3
+R4
+DEx4 work 13 register_file 0 22 B]bSG8ROPX;GokEiGJ6Q@1
+32
+R9
+l32
+L23
+Vk[^aZOcM0>]<d>@PkQKYC1
+!s100 Bzj8SS`Z2zFM@hjSY2^gZ0
+R8
+!i10b 1
+R10
+R43
+R44
+!i113 0
+R13
+Preverseassemblyfunctionpkg
+R2
+R15
+R4
+R16
+R3
+Z45 w1245451430
+R5
+Z46 8reverseAssemblyFunctionPkg_r2.vhd
+Z47 FreverseAssemblyFunctionPkg_r2.vhd
+l0
+L21
+VC9OjF`D=MG2LlSoDMDSEU1
+!s100 71FP]jKi<hL35f1lAM@HE3
+R8
+32
+b1
+R9
+!i10b 1
+R10
+Z48 !s90 -reportprogress|300|reverseAssemblyFunctionPkg_r2.vhd|
+Z49 !s107 reverseAssemblyFunctionPkg_r2.vhd|
+!i113 0
+R13
+Bbody
+R17
+R2
+R15
+R4
+R16
+R3
+32
+R9
+l0
+L28
+ViQFV5X>zFb56cYlXK7^`92
+!s100 fEPoFNBTcBee8a@BkYW<g2
+R8
+!i10b 1
+R10
+R48
+R49
+!i113 0
+R13
+nbody
