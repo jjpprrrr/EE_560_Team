@@ -1,0 +1,12 @@
+1. Please explain the different behavior of the AE_AF_flag signal for different FIFO sizes (4, 8, 16, and 32)?
+FIFO size = 4, low_threshold: 1, high_threshold: 2. 
+FIFO size = 8, low_threshold: 2-3, high_threshold: 4-5. 
+FIFO size = 16, low_threshold: 4-7, high_threshold: 8-11. 
+FIFO size = 32, low_threshold: 8-15, high_threshold: 16-23. 
+AE_AF_flag asserts one clock cycle after raw_almost_full goes high, and AE_AF_flag goes to '0' one clock cycle later when raw_almost_empty goes high.
+
+2. Is it necessary that we use a clocked process for AE_AF_process or it could be pure combinational?
+It needs to be in a clocked process because we want AE_AF_flag to be a register. It should keep its value when raw_almost_empty or raw_almost_full goes low. 
+
+3. In the (N+1)-bit pointers design do we need to use a subtractor with modulus 2N or a divider with modulus
+2N+1 and why?
