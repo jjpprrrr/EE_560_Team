@@ -10,3 +10,17 @@ It needs to be in a clocked process because we want AE_AF_flag to be a register.
 
 3. In the (N+1)-bit pointers design do we need to use a subtractor with modulus 2N or a divider with modulus
 2N+1 and why?
+
+Part 2
+1. Why it is necessary to use gray-coded read and write pointers for synchronization?
+Because during synchronization we only want one bit to be changing at a time. If there are multiple bits changing, all of them might fall into metastable state, 
+and the synchronized result could be garbage.
+
+2. Is it possible to implement a two clock FIFO with N-bit pointers and AE_Af_flag?why?
+No, because the AE_AF_flag is not reliable in this case. The clock from producer side could be a lot faster than the one from consumer side, so the whole FIFO may be filled or consumed 
+very fast. The depth of the FIFO may jump from empty to full in the eyes of the consumer. Therefore, the AE_AF_flag will not indicate the correct status of the FIFO.
+
+3. Why it is NOT necessary to check the empty signal in ren_process in consumer.vhd?
+Because we have two different clock domains on both sides, the consumer and the producer. When producing or consuming, it is their responsibility to calculate the depth and check full/empty
+in their own domain. This is not harmful because in producer side, for example, the producer may think FIFO is full but FIFO may not actually be full due to the delay of double synchronized signal. 
+However, producer will simply stop producing and this will not cause any error. 

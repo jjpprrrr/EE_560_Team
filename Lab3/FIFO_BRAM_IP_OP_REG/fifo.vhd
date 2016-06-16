@@ -31,12 +31,12 @@ component dpram
       data_in_a     : in  std_logic_vector(15 downto 0);
       wea           : in std_logic;
       ena           : in  std_logic;
-      data_out_a    : out std_logic_vector(15 downto 0);
+  --    data_out_a    : out std_logic_vector(15 downto 0);
 
       clkb          : in  std_logic; 
       addr_b        : in  std_logic_vector(3 downto 0);
-      data_in_b     : in  std_logic_vector(15 downto 0);
-      web           : in std_logic;      
+  --   data_in_b     : in  std_logic_vector(15 downto 0);
+  --    web           : in std_logic;      
       enb           : in  std_logic;
       data_out_b    : out std_logic_vector(15 downto 0)
 	  );
@@ -67,9 +67,8 @@ begin
  gnd_bus <= "0000000000000000";
    gnd <= '0';
    pwr <= '1';
-
-bram1: dpram port map (clka => rclk, addr_a => rdptr(3 downto 0),data_in_a => gnd_bus, wea => gnd,ena =>renq , data_out_a => data_out,
-						clkb => wclk, addr_b => wrptr(3 downto 0),data_in_b => data_in,web => '1', enb => wenq);
+bram1: dpram port map (clkb => rclk, addr_b => rdptr(3 downto 0), enb =>renq , data_out_b => data_out,
+						clka => wclk, addr_a => wrptr(3 downto 0),data_in_a => data_in,wea => '1', ena => wenq);
 ------------------------------------------------------------------------------------------
 -- Task 1: Convert the double synchronized gray pointer to binary
 ------------------------------------------------------------------------------------------
@@ -106,13 +105,6 @@ bram1: dpram port map (clka => rclk, addr_a => rdptr(3 downto 0),data_in_a => gn
 				-- "11110" when "10001",
 				-- "11111" when "10000",
 				-- "00000" when others;
-				
-wrptr_ss(4) <= wrptr_gray_ss(4);
-wrptr_ss(3) <= wrptr_ss(4) xor wrptr_gray_ss(3);
-wrptr_ss(2) <= wrptr_ss(3) xor wrptr_gray_ss(2);
-wrptr_ss(1) <= wrptr_ss(2) xor wrptr_gray_ss(1);
-wrptr_ss(0) <= wrptr_ss(1) xor wrptr_gray_ss(0);
-
 -- with rdptr_gray_ss select
 	-- rdptr_ss <= "00001" when "00001",
 				-- "00010" when "00011",
@@ -146,7 +138,12 @@ wrptr_ss(0) <= wrptr_ss(1) xor wrptr_gray_ss(0);
 				-- "11110" when "10001",
 				-- "11111" when "10000",
 				-- "00000" when others;
-				
+wrptr_ss(4) <= wrptr_gray_ss(4);
+wrptr_ss(3) <= wrptr_ss(4) xor wrptr_gray_ss(3);
+wrptr_ss(2) <= wrptr_ss(3) xor wrptr_gray_ss(2);
+wrptr_ss(1) <= wrptr_ss(2) xor wrptr_gray_ss(1);
+wrptr_ss(0) <= wrptr_ss(1) xor wrptr_gray_ss(0);
+
 rdptr_ss(4) <= rdptr_gray_ss(4);
 rdptr_ss(3) <= rdptr_ss(4) xor rdptr_gray_ss(3);
 rdptr_ss(2) <= rdptr_ss(3) xor rdptr_gray_ss(2);
@@ -187,6 +184,9 @@ Empty_Check: process (depth_rd)
 	
 empty <= empty_int;
 renq <= (not empty_int) and ren;
+
+
+
 
 
 ----------------------------------------------------------------------------

@@ -80,14 +80,22 @@ end process;
 -- TASK 1: Change the combinational logic in comb3: to ensure that the all the locations of internal fifo are used efficiently. 
 -- we want to fill all the locations of internal fifo if the consumer has long latency. For this we will have to check how 
 -- many reads from the main fifo are in pipeline. This can be determined by checking the pipelined Valid bit/bits.   
-comb3 : process (depth_int_fifo, empty, valid_reg1)
+comb3 : process (depth_int_fifo, empty, valid_reg1, valid_reg2)
 begin
 		
-		if ((depth_int_fifo = "000" or depth_int_fifo = "001" or depth_int_fifo = "010") and empty = '0') then
+		if ((depth_int_fifo = "000" or depth_int_fifo = "001") and empty = '0') then
 			ren <= '1';
 			ren_int <= '1';
+		elsif (depth_int_fifo = "010" and empty = '0') then
+			if ((valid_reg1 and valid_reg2) = '0') then
+				ren <= '1';
+				ren_int <= '1';
+			else
+				ren <= '0';
+				ren_int <= '0';
+			end if;	
 		elsif (depth_int_fifo = "011" and empty = '0') then
-			if (valid_reg1 = '0') then
+			if (valid_reg1 = '0' and valid_reg2 = '0') then
 				ren <= '1';
 				ren_int <= '1';
 			else
@@ -131,14 +139,15 @@ begin
 	
 -- TASK 2: Keep a track of the read requests by using pipelined flipflops.
 		valid_reg1 <= valid;
+		valid_reg2 <= valid_reg1;
 
 --SUB TASK 2.1: Complete the IF statements.
 -- When the requested data arrives consume it.		
-		if(	valid_reg1 = '1'		) then		-- When does the requested data arrives ??
+		if(	valid_reg2 = '1'	) then		-- When does the requested data arrives ??
 			if(data_in(2 downto 0) = "000" or data_in(2 downto 0) = "001") then
 			
 --SUB TASK 2.2: Complete the IF statements.
-				if(empty_int_fifo = '1') then  	-- Consume the newly arrived data if nothing from previous reads is pending.
+				if(	empty_int_fifo = '1') then  	-- Consume the newly arrived data if nothing from previous reads is pending.
 				-- Consume if lower 3 bits are 000 and if internal fifo is empty 
 				-- First Word fall through.
 					mem(CONV_INTEGER(consumerptr))     <= data_in; 
@@ -163,16 +172,16 @@ begin
 -- Whether you got some new data or not the old data which is sitting in the internal fifo needs to be consumed according to the posted latency.
 
 -- fill in the condition		
-		if(	empty_int_fifo = '0') then -- if the internal fifo is not empty check the latency 
+		if(	empty_int_fifo = '0'			) then -- if the internal fifo is not empty check the latency 
 										-- and consume after appropriate number of clocks
 	
 			counter <= unsigned(counter) + 1; 
 			
 -- Which Data I should be looking at.
 -- fill in the appropiate index
-			if(counter = (latency(CONV_INTEGER(rdptr_int_fifo(1 downto 0)				)))) then
-					mem(CONV_INTEGER(consumerptr))     <= 	mem_fifo(CONV_INTEGER(	rdptr_int_fifo(1 downto 0)			));
-					hwrite( outline, mem_fifo(CONV_INTEGER(	rdptr_int_fifo(1 downto 0)			)));
+			if(counter = (latency(CONV_INTEGER(	rdptr_int_fifo(1 downto 0)	)))) then
+					mem(CONV_INTEGER(consumerptr))     <= 	mem_fifo(CONV_INTEGER(	rdptr_int_fifo(1 downto 0)));
+					hwrite( outline, mem_fifo(CONV_INTEGER(	rdptr_int_fifo(1 downto 0))));
 					writeline(received_data, outline);					
 					consumerptr <= unsigned(consumerptr) + 1;
 					rdptr_int_fifo <= unsigned(rdptr_int_fifo) + 1; -- read pointer for the internal fifo
