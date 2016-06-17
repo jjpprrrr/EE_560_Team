@@ -192,6 +192,7 @@ variable next_wrptr_var : std_logic_vector(4 downto 0);
   begin
 	if (reset = '1') then
 	wrptr <= "00000";
+	wrptr_gray <= "00000";
 	next_wrptr_var := "00000";
 	rdptr_gray_s <= "00000";
 	rdptr_gray_ss <= "00000";
@@ -220,6 +221,7 @@ variable next_rdptr_var : std_logic_vector(4 downto 0);
 	begin
 		if (reset = '1') then
 			rdptr <= "00000";
+			rdptr_gray <= "00000";
 			next_rdptr_var := "00000";
 			wrptr_gray_s <= "00000";
 			wrptr_gray_ss <= "00000";

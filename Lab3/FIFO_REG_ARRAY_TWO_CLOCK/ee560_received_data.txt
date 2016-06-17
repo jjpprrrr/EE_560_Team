@@ -1,4 +1,4 @@
-0011 rclk_clock_count = 2	 time = 105 ns
+0011 rclk_clock_count = 3	 time = 135 ns
 0020 rclk_clock_count = 5	 time = 195 ns
 0030 rclk_clock_count = 6	 time = 225 ns
 0041 rclk_clock_count = 7	 time = 255 ns
