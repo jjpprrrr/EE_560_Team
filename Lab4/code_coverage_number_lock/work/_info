@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Questasim_projects/AXI
+Enumber_lock
+Z0 w1466300422
+Z1 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dC:/Questasim_projects/code_coverage_number_lock
+Z6 8number_lock.vhd
+Z7 Fnumber_lock.vhd
+l0
+L13
+VFRgMPREPbTz<U1@UH8i873
+!s100 m?`kA<;B6m4PlQB2biRJk3
+Z8 OL;C;10.4c;61
+32
+Z9 !s110 1466301843
+!i10b 1
+Z10 !s108 1466301842.000000
+Z11 !s90 -reportprogress|300|-cover|bcesxf|number_lock.vhd|
+Z12 !s107 number_lock.vhd|
+!i113 0
+Z13 !s102 -cover bcesxf
+Z14 o-cover bcesxf
+Z15 tExplicit 1
+Abehave
+R1
+R2
+R3
+R4
+DEx4 work 11 number_lock 0 22 FRgMPREPbTz<U1@UH8i873
+32
+R9
+l33
+L24
+VKY>V]F:LCnLo6ViJY:8Wi0
+!s100 zKlYWnI1K3?TGS=fallnO2
+R8
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R15
+Enumber_lock_tb
+Z16 w1466301831
+R2
+R3
+R4
+R5
+Z17 8number_lock_tb.vhd
+Z18 Fnumber_lock_tb.vhd
+l0
+L14
+V80z>U]n8C@?5;`La0dWY[2
+!s100 3VXJ[3LDP5EZD]7F1a4_E1
+R8
+32
+R9
+!i10b 1
+Z19 !s108 1466301843.000000
+Z20 !s90 -reportprogress|300|-cover|bcesxf|number_lock_tb.vhd|
+Z21 !s107 number_lock_tb.vhd|
+!i113 0
+R13
+R14
+R15
+Abehave
+R2
+R3
+R4
+DEx4 work 14 number_lock_tb 0 22 80z>U]n8C@?5;`La0dWY[2
+32
+R9
+l46
+L19
+VO5Wim0miP2?o04hDD8ACe1
+!s100 zC1Eok6[HSM3om9?6Rejk0
+R8
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R13
+R14
+R15
