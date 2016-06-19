@@ -1,4 +1,4 @@
-C:/Questasim_projects/FIFO_BRAM_IP_REG/consumer_inefficient.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/FIFO_BRAM_IP_REG/consumer_inefficient.vhd
+C:/Questasim_projects/FIFO_BRAM_IP_REG/consumer_ip_reg_r1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/FIFO_BRAM_IP_REG/consumer_ip_reg_r1.vhd
 QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -9,14 +9,16 @@ QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
 -- Compiling entity consumer
 -- Compiling architecture inferable of consumer
 
-} {} {}} C:/Questasim_projects/FIFO_BRAM_IP_REG/fifo.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/FIFO_BRAM_IP_REG/fifo.vhd
+} {} {}} C:/Questasim_projects/FIFO_BRAM_IP_REG/consumer_inefficient.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/FIFO_BRAM_IP_REG/consumer_inefficient.vhd
 QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package std_logic_arith
--- Compiling entity fifo_en
--- Compiling architecture behavefifo of fifo_en
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Compiling entity consumer
+-- Compiling architecture inferable of consumer
 
 } {} {}} C:/Questasim_projects/FIFO_BRAM_IP_REG/dpram_sync.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/FIFO_BRAM_IP_REG/dpram_sync.vhd
 QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
@@ -30,16 +32,14 @@ QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
 ** Warning: C:/Questasim_projects/FIFO_BRAM_IP_REG/dpram_sync.vhd(61): (vcom-1236) Shared variables must be of a protected type.
 
 
-} {} {}} C:/Questasim_projects/FIFO_BRAM_IP_REG/consumer_ip_reg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/FIFO_BRAM_IP_REG/consumer_ip_reg.vhd
+} {} {}} C:/Questasim_projects/FIFO_BRAM_IP_REG/fifo.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/FIFO_BRAM_IP_REG/fifo.vhd
 QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Loading package std_logic_textio
--- Compiling entity consumer
--- Compiling architecture inferable of consumer
+-- Compiling entity fifo_en
+-- Compiling architecture behavefifo of fifo_en
 
 } {} {}} C:/Questasim_projects/FIFO_BRAM_IP_REG/fifo_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Questasim_projects/FIFO_BRAM_IP_REG/fifo_tb.vhd
 QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015

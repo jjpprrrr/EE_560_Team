@@ -1,32 +1,32 @@
-0011
-0021
-0031
-0041
-0051
-0061
-0073
-0087
-0091
-00A1
-00B1
-00C4
-00D1
-00E1
-00F1
-0101
-0111
-0127
-0130
-0140
-0150
-0160
-0173
-0181
-0191
-01A1
-01B1
-01C1
-01D1
-01E0
-01F0
-FFFF
+0011 rclk_clock_count = 4	 time = 110 ns
+0021 rclk_clock_count = 5	 time = 130 ns
+0031 rclk_clock_count = 6	 time = 150 ns
+0041 rclk_clock_count = 7	 time = 170 ns
+0051 rclk_clock_count = 8	 time = 190 ns
+0061 rclk_clock_count = 9	 time = 210 ns
+0073 rclk_clock_count = 14	 time = 310 ns
+0087 rclk_clock_count = 22	 time = 470 ns
+0091 rclk_clock_count = 24	 time = 510 ns
+00A1 rclk_clock_count = 26	 time = 550 ns
+00B1 rclk_clock_count = 28	 time = 590 ns
+00C4 rclk_clock_count = 33	 time = 690 ns
+00D1 rclk_clock_count = 35	 time = 730 ns
+00E1 rclk_clock_count = 37	 time = 770 ns
+00F1 rclk_clock_count = 39	 time = 810 ns
+0101 rclk_clock_count = 41	 time = 850 ns
+0111 rclk_clock_count = 43	 time = 890 ns
+0127 rclk_clock_count = 51	 time = 1050 ns
+0130 rclk_clock_count = 52	 time = 1070 ns
+0140 rclk_clock_count = 53	 time = 1090 ns
+0150 rclk_clock_count = 54	 time = 1110 ns
+0160 rclk_clock_count = 55	 time = 1130 ns
+0173 rclk_clock_count = 59	 time = 1210 ns
+0181 rclk_clock_count = 61	 time = 1250 ns
+0191 rclk_clock_count = 63	 time = 1290 ns
+01A1 rclk_clock_count = 65	 time = 1330 ns
+01B1 rclk_clock_count = 67	 time = 1370 ns
+01C1 rclk_clock_count = 69	 time = 1410 ns
+01D1 rclk_clock_count = 71	 time = 1450 ns
+01E0 rclk_clock_count = 72	 time = 1470 ns
+01F0 rclk_clock_count = 73	 time = 1490 ns
+FFFF rclk_clock_count = 81	 time = 1650 ns

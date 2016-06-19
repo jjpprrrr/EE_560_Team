@@ -1,32 +1,32 @@
-0011
-0021
-0031
-0041
-0051
-0061
-0073
-0087
-0091
-00A1
-00B1
-00C4
-00D1
-00E1
-00F1
-0101
-0111
-0127
-0130
-0140
-0150
-0160
-0173
-0181
-0191
-01A1
-01B1
-01C1
-01D1
-01E0
-01F0
-FFFF
+0011 read_clock_count = 5	 time = 130 ns
+0021 read_clock_count = 6	 time = 150 ns
+0031 read_clock_count = 7	 time = 170 ns
+0041 read_clock_count = 8	 time = 190 ns
+0051 read_clock_count = 9	 time = 210 ns
+0061 read_clock_count = 10	 time = 230 ns
+0073 read_clock_count = 15	 time = 330 ns
+0087 read_clock_count = 23	 time = 490 ns
+0091 read_clock_count = 25	 time = 530 ns
+00A1 read_clock_count = 27	 time = 570 ns
+00B1 read_clock_count = 29	 time = 610 ns
+00C4 read_clock_count = 34	 time = 710 ns
+00D1 read_clock_count = 36	 time = 750 ns
+00E1 read_clock_count = 38	 time = 790 ns
+00F1 read_clock_count = 40	 time = 830 ns
+0101 read_clock_count = 42	 time = 870 ns
+0111 read_clock_count = 44	 time = 910 ns
+0127 read_clock_count = 52	 time = 1070 ns
+0130 read_clock_count = 53	 time = 1090 ns
+0140 read_clock_count = 54	 time = 1110 ns
+0150 read_clock_count = 55	 time = 1130 ns
+0160 read_clock_count = 56	 time = 1150 ns
+0173 read_clock_count = 60	 time = 1230 ns
+0181 read_clock_count = 62	 time = 1270 ns
+0191 read_clock_count = 64	 time = 1310 ns
+01A1 read_clock_count = 66	 time = 1350 ns
+01B1 read_clock_count = 68	 time = 1390 ns
+01C1 read_clock_count = 70	 time = 1430 ns
+01D1 read_clock_count = 72	 time = 1470 ns
+01E0 read_clock_count = 73	 time = 1490 ns
+01F0 read_clock_count = 74	 time = 1510 ns
+FFFF read_clock_count = 82	 time = 1670 ns
