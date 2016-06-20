@@ -186,7 +186,7 @@ begin
 --SUB TASK 2.1: Complete the IF statements.
 -- When the requested data arrives consume it.		
 		if(	valid_reg2 = '1'				) then		-- When does the requested data arrive ??
-			if(data_in(2 downto 0) = "000" or data_in(2 downto 0) = "001") then
+			if(data_in(2 downto 0) = "000") then -- or data_in(2 downto 0) = "001") then
 			
 --SUB TASK 2.2: Complete the IF statements.
 				if(	    empty_int_fifo = '1'              ) then  	-- Consume the newly arrived data if nothing from previous reads is pending.

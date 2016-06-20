@@ -75,7 +75,7 @@ begin
 --port map(wclk_tb, rclk_tb, reset_tb, data_in_tb, put_tb, get_tb, data_out_tb, empty_tb, full_tb);
 	
 Sender_Ctrl: process
-		file producer_data: text open read_mode is "C:\Questasim_projects\FIFO_BRAM_IP_REG\ee560_producer_data.txt";
+		file producer_data: text open read_mode is "C:\Modelsim_projects\FIFO_BRAM_IP_REG\ee560_producer_data.txt";
 		variable inline : line;
 		variable data_send : std_logic_vector(15 downto 0);
 		variable send_cycle: integer;
