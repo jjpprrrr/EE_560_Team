@@ -343,7 +343,7 @@ architecture behave of AddBuff is
        -- Add your code for Task3 here
     begin
 	   for i in 0 to 7 loop
-			BufferDepth(i) <= unsigned(Rob_TopPtr) - unsigned(BuffRobTag(i));
+			BufferDepth(i) <= unsigned(BuffRobTag(i)) - unsigned(Rob_TopPtr);
 	   end loop;
 	end process;
 		
@@ -398,7 +398,7 @@ architecture behave of AddBuff is
 			else
 				flushBySB(i) := '0';
 			end if;
-			if ((Cdb_RobDepth < BufferDepth(i))and Cdb_Flush = '1') then
+			if ((Cdb_RobDepth < BufferDepth(i)) and Cdb_Flush = '1' and BuffTagSel(i) = '0'  ) then
 				flushByCDB(i) := '1';
 			else
 				flushByCDB(i) := '0';
@@ -488,11 +488,15 @@ architecture behave of AddBuff is
 					BuffTagSel(7) <= '0';			
 				elsif Rob_CommitMemWrite = '1' then
 					-- Add your code for Task5 part1 here
+					BufValid(7) <= BufValid(7);
+					BuffRobTag(7) <= BuffRobTag(7);
+					BuffAdd(7) <= BuffAdd(7);
 					if BuffRobTag(7) = Rob_TopPtr and BuffTagSel(7) = '0' then
-						--BuffRobTag(7)  <= (others => '0');
-						BufValid(7) <= '1';
 						BuffSBTag(7) <= SBTag_counter; 
 						BuffTagSel(7) <= '1';
+					else
+						BuffSBTag(7) <= BuffSBTag(7);
+						BuffTagSel(7) <= BuffTagSel(7);
 					end if;
 				end if;
 				
@@ -518,11 +522,17 @@ architecture behave of AddBuff is
 						end if;
                     else
                         -- Add your code for Task5 part2 here
+						BufValid(i) <= BufValid(i);
+						BuffRobTag(i) <= BuffRobTag(i);
+						BuffAdd(i) <= BuffAdd(i);
 						if Rob_CommitMemWrite = '1' and BuffRobTag(i) = Rob_TopPtr and BuffTagSel(i) = '0' then
 						--BuffRobTag(7)  <= (others => '0');
-							BufValid(i) <= '1';
+							--BufValid(i) <= '1';
 							BuffSBTag(i) <= SBTag_counter; 
 							BuffTagSel(i) <= '1';
+						else
+							BuffSBTag(i) <= BuffSBTag(i);
+							BuffTagSel(i) <= BuffTagSel(i);
 						end if;		
                     end if;
                   end if;
