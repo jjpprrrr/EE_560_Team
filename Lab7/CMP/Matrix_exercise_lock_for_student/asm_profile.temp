@@ -1,0 +1,88 @@
+; 							THREAD 0
+
+LW $3, 48($0)
+LW $4, 112($0)
+MULT $5, $3, $4
+LOCK3_T0: LL $2, 128($0)
+BNE $0, $2, LOCK3_T0
+ADDI $2, $2, 1
+SC $2, 128($0)
+BEQ $0, $2, LOCK3_T0
+LW $6, 132($0)
+ADD $6, $6, $5
+SW $6, 132($0)
+LW $7, 136($0)
+ADDI $7, $7, 1
+SW $7, 136($0)
+SW $0, 128($0)
+ADDI $8, $0, 16
+LW $7, 136($0)
+BNE $7, $8, Sleep_T0
+CACHE 10101, 128($0)
+Sleep_T0: J Sleep_T0
+; 							THREAD 1
+
+LW $3, 52($0)
+LW $4, 116($0)
+MULT $5, $3, $4
+LOCK3_T1: LL $2, 128($0)
+BNE $0, $2, LOCK3_T1
+ADDI $2, $2, 1
+SC $2, 128($0)
+BEQ $0, $2, LOCK3_T1
+LW $6, 132($0)
+ADD $6, $6, $5
+SW $6, 132($0)
+LW $7, 136($0)
+ADDI $7, $7, 1
+SW $7, 136($0)
+SW $0, 128($0)
+ADDI $8, $0, 16
+LW $7, 136($0)
+BNE $7, $8, Sleep_T1
+CACHE 10101, 128($0)
+Sleep_T1: J Sleep_T1
+; 							THREAD 2
+
+LW $3, 56($0)
+LW $4, 120($0)
+MULT $5, $3, $4
+LOCK3_T2: LL $2, 128($0)
+BNE $0, $2, LOCK3_T2
+ADDI $2, $2, 1
+SC $2, 128($0)
+BEQ $0, $2, LOCK3_T2
+LW $6, 132($0)
+ADD $6, $6, $5
+SW $6, 132($0)
+LW $7, 136($0)
+ADDI $7, $7, 1
+SW $7, 136($0)
+SW $0, 128($0)
+ADDI $8, $0, 16
+LW $7, 136($0)
+BNE $7, $8, Sleep_T2
+CACHE 10101, 128($0)
+Sleep_T2: J Sleep_T2
+; 							THREAD 3
+
+LW $3, 60($0)
+LW $4, 124($0)
+MULT $5, $3, $4
+LOCK3_T3: LL $2, 128($0)
+BNE $0, $2, LOCK3_T3
+ADDI $2, $2, 1
+SC $2, 128($0)
+BEQ $0, $2, LOCK3_T3
+LW $6, 132($0)
+ADD $6, $6, $5
+SW $6, 132($0)
+LW $7, 136($0)
+ADDI $7, $7, 1
+SW $7, 136($0)
+SW $0, 128($0)
+ADDI $8, $0, 16
+LW $7, 136($0)
+BNE $7, $8, Sleep_T3
+CACHE 10101, 128($0)
+Sleep_T3: J Sleep_T3
