@@ -1,0 +1,304 @@
+ 
+EE560 interface lab responses are recorded here. 
+============================================ 
+ 
+ 
+============================================ 
+ee560_0_reg_interface_4way_handshake.vhd
+============================================ 
+  
+Last data was dispatched by the Producer ! Time = 6330 ns
+Last data was received by the Consumer !! Time = 6622 ns
+  
+Sent all data items correctly.
+Received all data items correctly.
+Sent all data items at right times.
+Received all data items at right times.
+============================================ 
+ 
+ 
+ 
+============================================ 
+ee560_0_reg_improved_interface_4way_handshake.vhd
+============================================ 
+  
+Last data was dispatched by the Producer ! Time = 5280 ns
+Last data was received by the Consumer !! Time = 5588 ns
+  
+Sent all data items correctly.
+Received all data items correctly.
+Sent all data items at right times.
+Received all data items at right times.
+============================================ 
+ 
+ 
+ 
+============================================ 
+ee560_0_reg_interface_2way_handshake_4states.vhd
+============================================ 
+  
+Last data was dispatched by the Producer ! Time = 5190 ns
+Last data was received by the Consumer !! Time = 5478 ns
+  
+Sent all data items correctly.
+Received all data items correctly.
+Sent all data items at right times.
+Received all data items at right times.
+============================================ 
+ 
+ 
+ 
+============================================ 
+ee560_0_reg_interface_2way_handshake_2states_one_way.vhd
+============================================ 
+  
+Last data was dispatched by the Producer ! Time = 5190 ns
+Last data was received by the Consumer !! Time = 5478 ns
+  
+Sent all data items correctly.
+Received all data items correctly.
+Sent all data items at right times.
+Received all data items at right times.
+============================================ 
+ 
+ 
+ 
+============================================ 
+ee560_0_reg_interface_2way_handshake_2states_the_FIFO_way.vhd
+============================================ 
+  
+Last data was dispatched by the Producer ! Time = 5190 ns
+Last data was received by the Consumer !! Time = 5478 ns
+  
+Sent all data items correctly.
+Received all data items correctly.
+Sent all data items at right times.
+Received all data items at right times.
+============================================ 
+ 
+ 
+ 
+============================================ 
+ee560_1_reg_interface_r1.vhd
+============================================ 
+  
+Last data was dispatched by the Producer ! Time = 4200 ns
+Last data was received by the Consumer !! Time = 4554 ns
+  
+Sent all data items correctly.
+Received all data items correctly.
+Sent all data items at right times.
+Received all data items at right times.
+============================================ 
+ 
+ 
+ 
+============================================ 
+ee560_1_reg_interface_1_loc_FIFO_3states.vhd
+============================================ 
+  
+Last data was dispatched by the Producer ! Time = 4200 ns
+Last data was received by the Consumer !! Time = 4554 ns
+  
+Sent all data items correctly.
+Received all data items correctly.
+Sent all data items at right times.
+Received all data items at right times.
+============================================ 
+ 
+ 
+ 
+============================================ 
+ee560_1_reg_interface_1_loc_FIFO_no_prefetch.vhd
+============================================ 
+  
+Last data was dispatched by the Producer ! Time = 5190 ns
+Last data was received by the Consumer !! Time = 5478 ns
+  
+Sent all data items correctly.
+Received all data items correctly.
+Sent all data items at right times.
+Received all data items at right times.
+============================================ 
+ 
+ 
+ 
+============================================ 
+ee560_1_reg_interface_1_loc_FIFO_with_prefetch.vhd
+============================================ 
+  
+Last data was dispatched by the Producer ! Time = 3660 ns
+Last data was received by the Consumer !! Time = 4026 ns
+  
+Sent all data items correctly.
+Received all data items correctly.
+Sent all data items at right times.
+Received all data items at right times.
+============================================ 
+ 
+ 
+ 
+============================================ 
+ee560_1_reg_interface_1_loc_FIFO_with_prefetch_and_overlap.vhd
+============================================ 
+  
+Last data was dispatched by the Producer ! Time = 3600 ns
+Last data was received by the Consumer !! Time = 3960 ns
+  
+Sent all data items correctly.
+Received all data items correctly.
+Sent all data items at right times.
+Received all data items at right times.
+============================================ 
+ 
+ 
+ 
+============================================ 
+ee560_2_reg_interface_r1.vhd
+============================================ 
+  
+Last data was dispatched by the Producer ! Time = 3270 ns
+Last data was received by the Consumer !! Time = 3608 ns
+  
+Sent all data items correctly.
+Received all data items correctly.
+Sent all data items at right times.
+Received all data items at right times.
+============================================ 
+ 
+ 
+ 
+============================================ 
+ee560_2_reg_interface_2_loc_FIFO_3states.vhd
+============================================ 
+  
+Last data was dispatched by the Producer ! Time = 3270 ns
+Last data was received by the Consumer !! Time = 3608 ns
+  
+Sent all data items correctly.
+Received all data items correctly.
+Sent all data items at right times.
+Received all data items at right times.
+============================================ 
+ 
+ 
+ 
+============================================ 
+ee560_2_reg_interface_2_loc_FIFO_no_prefetch.vhd
+============================================ 
+  
+Last data was dispatched by the Producer ! Time = 3330 ns
+Last data was received by the Consumer !! Time = 3630 ns
+  
+Sent all data items correctly.
+Received all data items correctly.
+Sent all data items at right times.
+Received all data items at right times.
+============================================ 
+ 
+ 
+ 
+============================================ 
+ee560_2_reg_interface_2_loc_FIFO_with_prefetch.vhd
+============================================ 
+  
+Last data was dispatched by the Producer ! Time = 2850 ns
+Last data was received by the Consumer !! Time = 3146 ns
+  
+Sent all data items correctly.
+Received all data items correctly.
+Sent all data items at right times.
+Received all data items at right times.
+============================================ 
+ 
+ 
+ 
+============================================ 
+ee560_2_reg_interface_2_loc_FIFO_with_prefetch_and_overlap.vhd
+============================================ 
+  
+Last data was dispatched by the Producer ! Time = 2670 ns
+Last data was received by the Consumer !! Time = 2970 ns
+  
+Sent all data items correctly.
+Received all data items correctly.
+Sent all data items at right times.
+Received all data items at right times.
+============================================ 
+ 
+ 
+ 
+============================================ 
+ee560_2_reg_interface_2_loc_FIFO_with_no_prefetch_but_with_overlap.vhd
+============================================ 
+  
+Last data was dispatched by the Producer ! Time = 3240 ns
+Last data was received by the Consumer !! Time = 3542 ns
+  
+Sent all data items correctly.
+Received all data items correctly.
+Sent all data items at right times.
+Received all data items at right times.
+============================================ 
+ 
+ 
+ 
+============================================ 
+ee560_8_loc_FIFO_no_prefetch.vhd
+============================================ 
+  
+Last data was dispatched by the Producer ! Time = 2550 ns
+Last data was received by the Consumer !! Time = 2838 ns
+  
+Sent all data items correctly.
+Received all data items correctly.
+Sent all data items at right times.
+Received all data items at right times.
+============================================ 
+ 
+ 
+ 
+============================================ 
+ee560_8_loc_FIFO_with_prefetch.vhd
+============================================ 
+  
+Last data was dispatched by the Producer ! Time = 2550 ns
+Last data was received by the Consumer !! Time = 2838 ns
+  
+Sent all data items correctly.
+Received all data items correctly.
+Sent all data items at right times.
+Received all data items at right times.
+============================================ 
+ 
+ 
+ 
+============================================ 
+ee560_8_loc_FIFO_with_prefetch_and_overlap.vhd
+============================================ 
+  
+Last data was dispatched by the Producer ! Time = 2100 ns
+Last data was received by the Consumer !! Time = 2398 ns
+  
+Sent all data items correctly.
+Received all data items correctly.
+Sent all data items at right times.
+Received all data items at right times.
+============================================ 
+ 
+ 
+ 
+============================================ 
+ee560_8_loc_FIFO_with_no_prefetch_but_with_overlap.vhd
+============================================ 
+  
+Last data was dispatched by the Producer ! Time = 2100 ns
+Last data was received by the Consumer !! Time = 2398 ns
+  
+Sent all data items correctly.
+Received all data items correctly.
+Sent all data items at right times.
+Received all data items at right times.
+============================================ 
+ 
+ 
